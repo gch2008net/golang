@@ -2,6 +2,8 @@ module example.com/hello
 
 go 1.22.4
 
-replace example.com/greetings => ./../greetings
+// replace example.com/greetings => ./../greetings
 
-require example.com/greetings v0.0.0-00010101000000-000000000000
+// require example.com/greetings v0.0.0-00010101000000-000000000000
+
+require github.com/gch2008net/common-go v1.0.5
