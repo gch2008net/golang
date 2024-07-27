@@ -7,8 +7,12 @@ import "fmt"
 // "github.com/gch2008net/common-go/hello"
 
 // "example.com/greetings"
+// import "other/pkg"
 
 func main() {
+
+	// pkg.GetOtherFunc()  、、
+
 	// Set properties of the predefined Logger, including
 	// the log entry prefix and a flag to disable printing
 	// the time, source file, and line number.

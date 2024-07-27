@@ -1,4 +1,2 @@
-github.com/gch2008net/common-go v1.0.5 h1:kCLxXOBEaWI3Oq981uiHmWQdBLX5u1Juww4S3h+C2ek=
-github.com/gch2008net/common-go v1.0.5/go.mod h1:iPvRaz51x1a9Ql7QDWtcGPke4sOA07Hf8euoUIKaa9M=
 golang.org/x/example/hello v0.0.0-20240716161537-39e772fc2670 h1:HLz1bLmabrNKLWKNuWfNNJK+vMnBF2WGY0dLWYQQL5E=
 golang.org/x/example/hello v0.0.0-20240716161537-39e772fc2670/go.mod h1:UhUKOXx5fMcLZxwL20DUrWWBBoRYG9Jvc8FiwZhRHCI=
