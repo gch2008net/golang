@@ -42,6 +42,7 @@ func main() {
 	dir := filepath.Join(dirFix, filename)
 
 	err := sh.RunWith(map[string]string{"GOOS": targetOS, "GOARCH": targetArch}, "go", "build", "-o", filepath.Join(outputDir, outputFileName), filepath.Join(dir, "hello.go"))
+	// err := sh.RunWith(map[string]string{"GOOS": targetOS, "GOARCH": targetArch}, "go", "run", filepath.Join(dir, "hello.go"))
 	if err != nil {
 		fmt.Println("err:" + err.Error())
 		return

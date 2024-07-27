@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+)
 
 // "github.com/gch2008net/common-go/greetings"
 // "github.com/gch2008net/common-go/greetings/book/api"
@@ -66,6 +70,9 @@ func main() {
 	// // messages to the console.
 	// fmt.Println(messages)
 	// test77.Hello222()
+
+	//测试创建文件夹
+	os.MkdirAll(filepath.Join("D:\\personal\\golang\\hello", "testfile"), 0755)
 
 	// 创建一个Dog对象
 	dog := Dog{}
